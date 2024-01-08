@@ -8,9 +8,9 @@
     background-color: #DEDED2;
 }
 .bg-columns-pattern{    
-    background: url(../assets/column-pattern.png), repeat;
+    background: url(../assets/pattern-20.png), repeat;
     background-attachment: unset;
-    background-size: auto;
+    background-size: contain;
 }
 .card-project{
     display: block;
