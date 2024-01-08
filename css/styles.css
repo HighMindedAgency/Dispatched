@@ -9,8 +9,9 @@
 }
 .bg-columns-pattern{    
     background: url(../assets/pattern-20.png), repeat;
-    background-attachment: unset;
+    background-attachment: none;
     background-size: contain;
+
 }
 .card-project{
     display: block;
