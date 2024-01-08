@@ -26,6 +26,18 @@
 .custom-height{
     height: calc(100vh - 90px);
 }
+.custom-list{
+    list-style-type: none; 
+    padding-left: 0; 
+}
+.custom-list li {
+    background-image: url('../assets/Vector-1.svg'); 
+    background-size: 0.5em;
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+}
 .font-unna{
     font-family: 'Unna', serif;
 }
