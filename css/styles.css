@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* ### */
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+}
+.bg-gray{
+    background-color: #DEDED2;
+}
+.bg-columns-pattern{    
+    background: url(../assets/column-pattern.png), repeat;
+    background-attachment: unset;
+    background-size: auto;
+}
+.card-project{
+    display: block;
+    cursor: pointer;
+    background-color: white;
+
+    transition:all ease .3s
+}
+.card-project:hover{
+    background-color: #DEDED2;
+    color:#111;
+}
+.custom-height{
+    height: calc(100vh - 90px);
+}
+.font-unna{
+    font-family: 'Unna', serif;
+}
+.nav-link{
+    font-weight: 600;
+}
+.text-justify {
+    text-align: justify;
+}
+.rotated-lg-wrapper {
+    position: relative;
+  }
+
+@media (min-width: 992px) {
+    .pt-lg-8{
+        padding-top: 8rem!important;        
+    }
+    .pb-lg-8{       
+        padding-bottom: 8rem!important;
+    }
+    .rotated-lg {
+      transform: rotate(-90deg);
+      white-space: nowrap;
+    }
+    .rotated-lg-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 50%;
+        width: 3px;
+        height: 150vh;
+        background-color: #000;
+        transform: translateX(-50%);
+    }
+    .top-lg-12rem{
+        top: 12rem;
+    }
+    .top-lg-25rem{
+        top: 25rem;
+    }
+  }
