@@ -11,7 +11,8 @@
 .bg-columns-pattern{    
     background: url(../assets/pattern-20.png), repeat;
     background-attachment: none;
-    background-size: contain;
+    background-size: 60%;
+    background-position: bottom;
 }
 .card-project{
     display: block;
