@@ -20,7 +20,7 @@ body{
     background: url(../assets/pattern-30.png), #f8f8f6;
     background-repeat: repeat;
     background-attachment: none;
-    background-size: 99%;
+    background-size: 75%;
     background-position: center;
 }
 .card-project{
