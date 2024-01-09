@@ -10,6 +10,9 @@ html {
 .bg-gray{
     background-color: #DEDED2;
 }
+.bg-whites{
+    background-color: #f8f8f6;
+}
 .bg-columns-pattern{    
     background: url(../assets/pattern-20.png), repeat;
     background-attachment: none;
