@@ -3,6 +3,9 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    color: #656d78;
+}
 .accordion-button:not(.collapsed) {
     background-color: white;
     color: #000;
