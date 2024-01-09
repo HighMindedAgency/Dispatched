@@ -81,7 +81,7 @@ body{
         left: 50%;
         width: 3px;
         height: 190vh;
-        background-color: #111;
+        background-color: #000;
         transform: translateX(-50%);
     }
     .top-lg-12rem{
