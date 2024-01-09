@@ -17,7 +17,8 @@ body{
     background-color: #f8f8f6;
 }
 .bg-columns-pattern{    
-    background: url(../assets/pattern-20.png), repeat;
+    background: url(../assets/pattern-20.png), #f8f8f6;
+    background-repeat: repeat;
     background-attachment: none;
     background-size: 99%;
     background-position: center;

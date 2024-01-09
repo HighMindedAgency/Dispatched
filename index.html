@@ -65,7 +65,7 @@
             </div>
         </nav>
     </header>
-    <section class="bg-whites custom-height"><!--bg-columns-pattern-->
+    <section class="bg-columns-pattern custom-height"><!--bg-columns-pattern-->
         <div class="container py-5 h-100">
             <div class="row py-lg-5 align-items-center h-100">
                 <div class="col-12 col-lg-5 offset-lg-1 order-2 order-lg-1 bg-whites" data-aos="fadeIn" data-aos-duration="1500">
@@ -121,7 +121,7 @@
             </div>
         </div>
     </section>
-    <section id="hwch" class="hwc-help py-5 bg-whites"><!--bg-columns-pattern-->
+    <section id="hwch" class="hwc-help py-5 bg-columns-pattern"><!--bg-columns-pattern-->
         <div class="container">
             <div class="row align-items-baseline h-100 overflow-hidden">
                 <div class="col-12 col-lg-1">
@@ -305,7 +305,7 @@
             </div>
         </div>
     </section>
-    <section id="projects" class="projects py-5 bg-whites"><!-- bg-columns-pattern -->
+    <section id="projects" class="projects py-5 bg-columns-pattern"><!-- bg-columns-pattern -->
         <div class="container">
             <div class="row align-items-center h-100 overflow-hidden">
                 <div class="col-12 col-lg-1 py-5"> 
@@ -389,10 +389,10 @@
                 </div>
                 <div class="col-12 col-lg-10 offset-lg-1 "   data-aos="fadeIn" data-aos-duration="1500">
                     <div class="container-fluid position-relative">
-                        <div class="position-absolute">
+                        <div class="position-absolute" style="top: -1em; left:0;">
                             <img src="assets/Vector-1.svg" alt="Dispatched Icon">
                         </div>
-                        <div class="p-4">
+                        <div class="p-4 bg-white mt-3 mx-1">
                             <div class="accordion accordion-flush  px-5 py-3" id="accordionFAQ">
                                 <div class="accordion-item">
                                   <h2 class="accordion-header">
@@ -451,7 +451,7 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="contact bg-whites py-5">
+    <section id="contact" class="contact py-5 bg-columns-pattern">
         <div class="container-fluid">
             <div class="row align-items-center h-100">
                 
@@ -513,7 +513,14 @@
                 <div class="text-uppercase small"><a href="#founders" class="text-white text-decoration-none fw-light">Our founders</a></div>
                 <div class="text-uppercase small"><a href="#projects" class="text-white text-decoration-none fw-light">Current Projects</a></div>
                 <div class="text-uppercase small"><a href="#faq" class="text-white text-decoration-none fw-light">FAQ</a></div>
+            </div>
+            <!-- Button trigger modal --> 
+            <div class="d-flex justify-content-between px-2 px-lg-4 mt-5">
+                <div class="text-uppercase small"><a href="assets/DBS-Disclaimer.docx" class="text-white text-decoration-none fw-light">Disclaimer</a></div>
                 <div class="text-uppercase small"><a href="https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/empresa-com-socio-fundador-brasileiro-promove-consultoria-a-empresarios-brasileiros-que-desejam-expansao-para-os-eua/" target="_blank" class="text-white text-decoration-none fw-light">Press</a></div>
+                <div class="text-uppercase small"><a href="assets/DBS-WebsiteTermsofUse.docx" target="_blank" class="text-white text-decoration-none fw-light" >Terms of use</a></div>
+                <div class="text-uppercase small"><a href="assets/DBS-PrivacyPolicy.docx" class="text-white text-decoration-none fw-light">Privacy policy</a></div>
+                <div class="text-uppercase small"><a href="assets/DBS-AboutOurAds.docx" class="text-white text-decoration-none fw-light">About Our Ads</a></div>                
                 <div class="text-uppercase small"><a href="#contact" class="text-white text-decoration-none fw-light">Contact Us</a></div>
             </div>
             <div class="d-flex justify-content-between mt-5 px-2 px-lg-4">
@@ -526,6 +533,37 @@
             </div>
         </div>
     </footer>
+    <!-- FOOTER MODALS -->
+    <!-- Disclaimer Modal -->
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" aria-labelledby="disclaimerModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="disclaimerModal">Dispatched Business Studio Disclaimer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6 class="text-dark"></h6>
+                <p class="lh-base">Dispatched Business Studio, LLC (“DBS”, “we”, “our”, or “us”) is not a law firm and
+                does not engage in the practice of law or provide legal advice or legal representation.
+                The information provided on this website www.dispatchedstudio.com (“Site”) does not,
+                and is not intended to, constitute legal advice; instead, all information, content, and
+                materials available on this Site are for general informational purposes only. Use of, and
+                access to, this Site or services shall not create attorney-client relationship between the
+                reader, user or browser and DBS. Information on this Site may not constitute the most
+                up-to-date legal or other information. Information on this Site is provided on an “as is, as
+                available” basis; no representations are made that the content is error-free. DBS does
+                not guarantee specific results or outcomes. This Site may contain links to third-party
+                websites. DBS is not responsible for content accessed through this Site’s links to other
+                websites. Correctness and adequacy of information on those websites is not
+                guaranteed, and unless otherwise stated, DBS is not associated with such linked
+                websites. This is also found in our Terms of Use. Please read the Terms of Use and the
+                Privacy Policy. </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
