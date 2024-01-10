@@ -5,6 +5,7 @@ html {
 }
 body{
     color: #656d78;
+    background-color: #f8f8f6;
 }
 .accordion-button:not(.collapsed) {
     background-color: white;
