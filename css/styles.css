@@ -11,7 +11,7 @@ body{
     color: #000;
 }
 .bg-gray{
-    background-color: #f8f8f6;
+    background-color: #f7f7f7;
 }
 .bg-whites{
     background-color: #f8f8f6;
@@ -27,8 +27,13 @@ body{
     background: url(../assets/Background-website.png), #f8f8f6;
     background-repeat: repeat;
     background-size: 100%;
-    background-position: center;
-    
+    background-position: center;    
+}
+.bg-columns-pattern-hwch{    
+    background: url(../assets/Background-howwecanhelp.png), #f8f8f6;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;    
 }
 .card-project{
     display: block;
@@ -79,7 +84,7 @@ body{
     }
     .pb-lg-8{       
         padding-bottom: 8rem!important;
-    }
+    } 
     .rotated-lg {
       transform: rotate(-90deg);
       white-space: nowrap;
