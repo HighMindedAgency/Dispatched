@@ -27,8 +27,8 @@ body{
     background: url(../assets/pattern-30.png), #f8f8f6;
     background-repeat: repeat;
     background-attachment: none;
-    background-size: 75%;
-    background-position: center;
+    background-size: 60%;
+    background-position: top;
 }
 .card-project{
     display: block;
@@ -40,6 +40,10 @@ body{
 .card-project:hover{
     background-color: #DEDED2;
     color:#111;
+}
+
+.color-gray{
+    color: #656d78!important;
 }
 .custom-height{
     height: calc(100vh - 90px);
