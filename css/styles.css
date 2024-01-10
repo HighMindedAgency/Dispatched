@@ -27,8 +27,7 @@ body{
     background: url(../assets/Background-website.png), #f8f8f6;
     background-repeat: repeat;
     background-attachment: none;
-    background-size: 60%;
-    background-position: top;
+     
 }
 .card-project{
     display: block;
