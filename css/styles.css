@@ -26,8 +26,9 @@ body{
 .bg-columns-pattern-hero{    
     background: url(../assets/Background-website.png), #f8f8f6;
     background-repeat: repeat;
-    background-attachment: none;
-     
+    background-size: 100%;
+    background-position: center;
+    
 }
 .card-project{
     display: block;
