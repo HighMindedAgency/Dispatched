@@ -102,18 +102,18 @@ body{
         transform: translateX(-50%);
     }
     .top-lg-5rem{
-        top: 5rem;
+        top: 5rem!important;
     }
     .top-lg-7rem {
-        top: 7rem;
+        top: 7rem!important;
     }
     .top-lg-12rem{
-        top: 12rem;
+        top: 12rem!important;
     }
     .top-lg-25rem{
-        top: 25rem;
+        top: 25rem!important;
     }
     .op-lg-35rem{
-        top: 3.5rem;
+        top: 3.5rem!important;
     }
   }
