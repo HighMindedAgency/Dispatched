@@ -101,10 +101,19 @@ body{
         background-color: #000;
         transform: translateX(-50%);
     }
+    .top-lg-5rem{
+        top: 5rem;
+    }
+    .top-lg-7rem {
+        top: 7rem;
+    }
     .top-lg-12rem{
         top: 12rem;
     }
     .top-lg-25rem{
         top: 25rem;
+    }
+    .op-lg-35rem{
+        top: 3.5rem;
     }
   }
